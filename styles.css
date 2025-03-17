@@ -21,6 +21,8 @@ body {
     width: 300px;
     height: 300px;
     margin: 75px auto 0;
+    position: relative;
+    z-index: 4;
 }
 
 .left-mountain {
@@ -50,4 +52,6 @@ body {
     background-color: yellow;
     border-radius: 50%;
     position: absolute;
+    top: -75px;
+    right: -75px;
 }
