@@ -1,4 +1,8 @@
 /* Add your styles here */
+:root {
+    --penguin-face: white;
+}
+
 body {
     background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
     margin: 0;
@@ -42,7 +46,7 @@ body {
 .face {
     width: 60%;
     height: 70%;
-    background: white;
+    background-color: var(--penguin-face);
     border-radius: 70% 70% 60% 60%;
     top: 15%;
 }
@@ -58,7 +62,7 @@ body {
 .chin {
     width: 90%;
     height: 70%;
-    background-color: white;
+    background-color: var(--penguin-face);
     position: absolute;
     top: 25%;
     left: 5%;
@@ -84,6 +88,14 @@ body {
     border-radius: 80% 80% 100% 100%;
     top: 40%;
     left: 23.5%;
+}
+
+.eye {
+    width: 15%;
+    height: 17%;
+    background: black;
+    border-radius: 50%;
+    top: 45%;
 }
 
 .left-mountain {
