@@ -162,7 +162,11 @@ body {
     font-weight: initial;
     top: 22.5px;
     left: 12px;
+    top: 85%;
+    border-radius: 50%;
 }
+
+
 
 .left-mountain {
     width: 300px;
